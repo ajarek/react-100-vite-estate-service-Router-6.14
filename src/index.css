@@ -16,7 +16,7 @@
   --green: #2b8c69;
   --green-light: #1db954;
   --grey: #f0f1f3;
-  --grey-dark: #1f2937;
+  --grey-dark: #8a8d91;
   --grey-light: #7b7b7b;
   --grey-light-super: #ddd;
   --orange: #ff9f1a;
@@ -28,15 +28,9 @@
 }
 body {
   font-family: 'Raleway', sans-serif;
-  background-color: var(--grey);
-  color: var(--grey-dark);
+  
 }
 #root {
   max-width: 1440px;
-  min-height: 100vh;
   margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
-
