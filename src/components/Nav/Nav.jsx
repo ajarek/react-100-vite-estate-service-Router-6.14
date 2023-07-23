@@ -15,11 +15,11 @@ const Nav = () => {
         >
           <div className='img'>
             <img
-              src=''
-              alt=''
+              src='/logo.png'
+              alt='logo'
             />
           </div>
-          <h1>Wybory 2023</h1>
+          <h1>Buro Nieruchomości</h1>
         </Link>
       </div>
       <ul className={!isOpen ? 'wrapper' : 'wrapper navbar-none'}>
@@ -27,7 +27,7 @@ const Nav = () => {
           className='link link-text'
           to={'/'}
         >
-          Panel Głosowania
+          Kontakt
         </Link>
 
         
