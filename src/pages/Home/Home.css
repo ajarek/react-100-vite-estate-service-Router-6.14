@@ -46,4 +46,5 @@
 .home .info-wrapper input[type=submit]{
  background-color: var(--braun);
  color: var(--white);
+ cursor: pointer;
 }

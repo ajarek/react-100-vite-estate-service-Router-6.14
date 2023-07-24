@@ -1,13 +1,29 @@
 import './Home.css'
-
+import Modal from '../../components/Modal/Modal'
+import { useNavigate } from 'react-router-dom'
+import { useState } from 'react'
 const Home = () => {
+  const [userEmail,setUserEmail]=useState('')
+  const [showModal, setShowModal] = useState(false)
+  const navigate = useNavigate()
+  const handleSubmit=(e)=>{
+    e.preventDefault()
+    setUserEmail(e.target[0].value);
+    e.target[0].value=''
+    setShowModal(true)
+  }
+  const handleCloseModal = () => {
+    setShowModal(false)
+    navigate('/')
+  }
   return (
     <div className='home'>
+      {showModal?<Modal email={userEmail} onClose={handleCloseModal}/>:null}
       <div className="info">
         <h2>Znajdź Swój <span>Wymarzony Dom</span></h2>
         <p>Witamy w naszym biurze nieruchomości, dla którego znalezienie wymarzonego domu jest dla nas priorytetem. Nasz zespół doświadczonych agentów zapewnia wyjątkową obsługę i pomaga przejść przez złożony proces kupna lub sprzedaży nieruchomości</p>
-        <form className="info-wrapper">
-          <input type="email" name="" id="" placeholder='TwójEmail' />
+        <form className="info-wrapper" onSubmit={handleSubmit}>
+          <input type="email" name="" id="" placeholder='Twój Email' required />
           <input type="submit" value="Wyślij" />
         </form>
       </div>
