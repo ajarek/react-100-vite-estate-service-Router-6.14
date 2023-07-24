@@ -1,0 +1,32 @@
+[
+  {
+    "id":"1",
+    "name":"Dom wolnostojący",
+    "src":"/dom.jpg",
+    "adres":"Lębork os. Leśne",
+    "price":"659000",
+    "rooms":"5",
+    "area":"220"
+
+  },
+  {
+    "id":"2",
+    "name":"Dom wolnostojący",
+    "src":"/dom1.jpg",
+    "adres":"Kołobrzeg os. Słoneczne Wzgórze",
+    "price":"75000",
+    "rooms":"6",
+    "area":"250"
+
+  },
+  {
+    "id":"3",
+    "name":"Dom wolnostojący",
+    "src":"/dom2.jpg",
+    "adres":"Lębork os. Leśne",
+    "price":"524000",
+    "rooms":"4",
+    "area":"180"
+
+  }
+]
