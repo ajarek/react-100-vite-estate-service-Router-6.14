@@ -25,9 +25,15 @@ const Nav = () => {
       <ul className={!isOpen ? 'wrapper' : 'wrapper navbar-none'}>
         <Link
           className='link link-text'
-          to={'/'}
+          to={'/o-nas'}
         >
-          Kontakt
+         O_Nas
+        </Link>
+        <Link
+          className='link link-text'
+          to={'/popularne'}
+        >
+         Popularne Oferty
         </Link>
 
         

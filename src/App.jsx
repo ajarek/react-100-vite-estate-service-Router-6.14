@@ -3,8 +3,10 @@ import { createContext, useState } from 'react'
 export const AppContext = createContext()
 
 import Main from './layouts/Main/Main'
-import Error from './pages/Error/Error'
 import Home from './pages/Home/Home'
+import AboutUs from './pages/AboutUs/AboutUs'
+import Popular from './pages/Popular/Popular'
+import Error from './pages/Error/Error'
 
 const router = createBrowserRouter([
   {
@@ -15,6 +17,16 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Home />,
+        errorElement: <Error />,
+      },
+      {
+        path: '/o-nas',
+        element: <AboutUs />,
+        errorElement: <Error />,
+      },
+      {
+        path: '/popularne',
+        element: <Popular />,
         errorElement: <Error />,
       },
      

@@ -6,7 +6,7 @@ const Modal = ({ email, onClose }) => {
     <div className='modal-overlay'>
       <div className='modal'>
         <h2>Dziękujemy za e-mail</h2>
-        <p>Niezwłocznie prześlemy na adres <b>{email}</b>  propozycje.</p>
+        <p>Niezwłocznie prześlemy propozycje na adres <b>{email}</b>  .</p>
         <button
           className='close-button'
           onClick={onClose}
