@@ -2,7 +2,7 @@
   height: 100vh;
   width: 100%;
   padding: 90px 45px;
-  background-color: var(--darkGrey);
+  background: linear-gradient(var(--grey-light-super), var(--grey-dark));
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   place-items: center;

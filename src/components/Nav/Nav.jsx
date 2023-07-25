@@ -33,7 +33,13 @@ const Nav = () => {
           className='link link-text'
           to={'/popularne'}
         >
-         Popularne Oferty
+         Oferty
+        </Link>
+        <Link
+          className='link link-text'
+          to={'/uslugi'}
+        >
+         Nasze Usługi
         </Link>
 
         

@@ -7,6 +7,7 @@ import Home from './pages/Home/Home'
 import AboutUs from './pages/AboutUs/AboutUs'
 import Popular from './pages/Popular/Popular'
 import PopularEdit from './pages/PopularEdit/PopularEdit'
+import OurServices from './pages/OurServices/OurServices'
 import Error from './pages/Error/Error'
 
 const router = createBrowserRouter([
@@ -28,6 +29,11 @@ const router = createBrowserRouter([
       {
         path: '/popularne',
         element: <Popular />,
+        errorElement: <Error />,
+      },
+      {
+        path: '/uslugi',
+        element: <OurServices />,
         errorElement: <Error />,
       },
       {

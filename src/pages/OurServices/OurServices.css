@@ -1,0 +1,22 @@
+.our-services{
+  height: 100vh;
+  width: 100%;
+  padding: 90px 45px;
+  background: linear-gradient(var(--grey-light-super), var(--grey-dark));
+  
+}
+.our-services-wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  place-items: center;
+  gap: 32px;
+}
+.our-services-wrapper .img{
+  width: 360px;
+  height: 220px;
+}
+.our-services-wrapper .img img{
+  width: 100%;
+  height: 100%;
+object-fit: cover;
+}
