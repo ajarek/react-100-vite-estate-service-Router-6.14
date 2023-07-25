@@ -1,0 +1,75 @@
+.popular-edit {
+  height: 100vh;
+  width: 100%;
+  padding: 90px 45px;
+  background-color: var(--darkGrey);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  gap: 32px;
+}
+.popular-edit .info {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.popular-edit .img {
+  width: 100%;
+}
+.popular-edit .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.popular-edit .info h2 {
+  color: var(--braun);
+  margin-bottom: 16px;
+}
+.popular-edit .info b {
+  color: var(--braun);
+}
+.popular-edit .opis {
+  height: 100%;
+  margin: 16px 0;
+
+  background-color: var(--darkGrey);
+}
+.popular-edit .wrapper-cena {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.popular-edit .wrapper-cena .link-cena {
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--green);
+  padding: 8px 16px;
+  font-size: 1.2rem;
+  border-radius: 3px;
+  transition: background-color 0.3s ease-in-out;
+}
+.popular-edit .wrapper-cena .link-cena:nth-child(2) {
+  background-color: var(--orange);
+}
+.popular-edit .wrapper-cena .link-cena:nth-child(2):hover {
+  background-color: var(--red);
+}
+.popular-edit .wrapper-cena .link-cena:hover {
+  background-color: var(--lightGreen);
+}
+@media (max-width: 1051px) {
+  .popular-edit {
+    min-height: 100vh;
+    height: 100%;
+    padding: 90px 25px 32px 25px;
+    background-color: var(--darkGrey);
+
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -6,6 +6,7 @@ import Main from './layouts/Main/Main'
 import Home from './pages/Home/Home'
 import AboutUs from './pages/AboutUs/AboutUs'
 import Popular from './pages/Popular/Popular'
+import PopularEdit from './pages/PopularEdit/PopularEdit'
 import Error from './pages/Error/Error'
 
 const router = createBrowserRouter([
@@ -29,7 +30,17 @@ const router = createBrowserRouter([
         element: <Popular />,
         errorElement: <Error />,
       },
-     
+      {
+        path: 'popularne-edit',
+        errorElement: <Error />,
+        children: [
+          {
+            path: ':id',
+            element: <PopularEdit />,
+            errorElement: <Error />,
+          },
+        ]
+        }
     ],
   },
 ])

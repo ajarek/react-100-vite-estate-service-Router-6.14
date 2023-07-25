@@ -6,7 +6,8 @@
     "adres":"Lębork os. Leśne",
     "price":"659000",
     "rooms":"5",
-    "area":"220"
+    "area":"220",
+    "description":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora exercitationem placeat debitis, enim labore velit odit. Accusantium quam sit mollitia facere, doloremque ad reiciendis itaque asperiores nulla rerum illum eveniet sequi labore quisquam consequuntur voluptatum eligendi id iusto laborum. In repellat minus ea a? Eveniet enim suscipit quae quo nam!"
 
   },
   {
@@ -16,7 +17,8 @@
     "adres":"Kołobrzeg os. Słoneczne Wzgórze",
     "price":"75000",
     "rooms":"6",
-    "area":"250"
+    "area":"250",
+    "description":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora exercitationem placeat debitis, enim labore velit odit. Accusantium quam sit mollitia facere, doloremque ad reiciendis itaque asperiores nulla rerum illum eveniet sequi labore quisquam consequuntur voluptatum eligendi id iusto laborum. In repellat minus ea a? Eveniet enim suscipit quae quo nam!"
 
   },
   {
@@ -26,7 +28,8 @@
     "adres":"Lębork os. Leśne",
     "price":"524000",
     "rooms":"4",
-    "area":"180"
+    "area":"180",
+    "description":" Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora exercitationem placeat debitis, enim labore velit odit. Accusantium quam sit mollitia facere, doloremque ad reiciendis itaque asperiores nulla rerum illum eveniet sequi labore quisquam consequuntur voluptatum eligendi id iusto laborum. In repellat minus ea a? Eveniet enim suscipit quae quo nam!"
 
   }
 ]

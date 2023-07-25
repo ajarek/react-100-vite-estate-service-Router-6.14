@@ -12,10 +12,11 @@
   color: var(--braun);
 }
 .popular .popular-wrapper{
-  height: 525px;
+  min-height: 525px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   place-items: center;
+  padding: 16px 0;
   gap: 8px;
 }
 .popular .popular-wrapper .card{
