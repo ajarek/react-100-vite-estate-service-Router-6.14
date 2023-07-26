@@ -41,6 +41,12 @@ const Nav = () => {
         >
          Nasze Usługi
         </Link>
+        <Link
+          className='link link-text'
+          to={'/klienci'}
+        >
+         Nasi Klienci
+        </Link>
 
         
       </ul>
