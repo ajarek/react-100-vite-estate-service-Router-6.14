@@ -20,7 +20,8 @@
   object-fit: cover;
 }
 .title {
-  padding: 16px;
+  background-color: var(--bisque);
+  padding:32px 16px;
 }
 .title h3 {
   letter-spacing: 1px;

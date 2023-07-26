@@ -28,8 +28,7 @@
  line-height: 2;
  margin: 32px 0;
 }
-.home .info-wrapper{
-  width: 100%;
+.home form{
   display: flex;
 }
 .home .info-wrapper input{
@@ -40,8 +39,9 @@
   padding: 0 16px;
   border: none;
   outline: none;
-  background-color: var(--white);
+  background-color: var(--bisque);
   font-size: 1rem;
+
 }
 .home .info-wrapper input[type=submit]{
  background-color: var(--braun);

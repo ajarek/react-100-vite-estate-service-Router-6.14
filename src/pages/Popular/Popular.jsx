@@ -9,7 +9,7 @@ const Popular = () => {
       <div className="popular-wrapper">
        {data.map(dt=>{
         return(
-          <div key={dt.id} className="card">
+          <div key={dt.id} className="card-popular">
             <div className="img">
 
             <img src={dt.src} alt={dt.name} />

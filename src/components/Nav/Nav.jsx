@@ -47,6 +47,12 @@ const Nav = () => {
         >
          Nasi Klienci
         </Link>
+        <Link
+          className='link link-text'
+          to={'/kontakt'}
+        >
+         Kontakt
+        </Link>
 
         
       </ul>

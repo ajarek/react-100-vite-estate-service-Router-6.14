@@ -7,7 +7,8 @@
 }
 
 :root {
-  -black: #000000;
+  --bisque:#ffe4c4;
+  --black: #000000;
   --blue: #0062b2;
   --blueViolet: #8a2be2;
   --blueViolet-light: #dabdf7;

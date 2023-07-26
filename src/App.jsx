@@ -9,6 +9,7 @@ import Popular from './pages/Popular/Popular'
 import PopularEdit from './pages/PopularEdit/PopularEdit'
 import OurServices from './pages/OurServices/OurServices'
 import OurClients from './pages/OurClients/OurClients'
+import Contact from './pages/Contact/Contact'
 import Error from './pages/Error/Error'
 
 const router = createBrowserRouter([
@@ -40,6 +41,11 @@ const router = createBrowserRouter([
       {
         path: '/klienci',
         element: <OurClients />,
+        errorElement: <Error />,
+      },
+      {
+        path: '/kontakt',
+        element: <Contact/>,
         errorElement: <Error />,
       },
       {

@@ -23,8 +23,9 @@
   align-items: center;
 }
 .nav .link-logo h1{
-  font-size:2.25rem ;
-  font-weight: 400;
+  width: 300px;
+  font-size:1.8rem ;
+  font-weight: 600;
   color: var(--braun);
 }
 .nav .logo .img {
