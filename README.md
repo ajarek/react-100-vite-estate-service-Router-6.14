@@ -1,7 +1,7 @@
 # react-99-vite-estate-service-Router-6.14
 
-#### Technologies used: react   .
-#### Hooks used: useState.
+#### Technologies used: react, react-router-dom, react-hook-form, @hookform/resolvers, hamburger-react, yup, react-icons .
+#### Hooks used: useState useEfect.
 ## Setup:
 * npm install
 * start: npm run dev
