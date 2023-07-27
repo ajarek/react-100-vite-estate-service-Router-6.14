@@ -14,8 +14,7 @@
   font-size: 1.2rem;
   outline: none;
   border: none;
-  border-bottom: 1px solid var(--black);
-  background-color: var(--white);
+  background-color: var(--bisque);
   user-select: none;
   margin-bottom: 0.5rem;
 }

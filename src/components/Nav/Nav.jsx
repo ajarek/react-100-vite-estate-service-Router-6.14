@@ -27,34 +27,32 @@ const Nav = () => {
           className='link link-text'
           to={'/o-nas'}
         >
-         O_Nas
+          O_Nas
         </Link>
         <Link
           className='link link-text'
           to={'/popularne'}
         >
-         Oferty
+          Oferty
         </Link>
         <Link
           className='link link-text'
           to={'/uslugi'}
         >
-         Nasze Usługi
+          Nasze Usługi
         </Link>
         <Link
           className='link link-text'
           to={'/klienci'}
         >
-         Nasi Klienci
+          Nasi Klienci
         </Link>
         <Link
           className='link link-text'
           to={'/kontakt'}
         >
-         Kontakt
+          Kontakt
         </Link>
-
-        
       </ul>
       <div className='hamburger'>
         <Hamburger

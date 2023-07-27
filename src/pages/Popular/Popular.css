@@ -5,13 +5,13 @@
   background: linear-gradient(var(--grey-light-super), var(--grey-dark));
   color: var(--black);
 }
-.popular h1{
+.popular h1 {
   padding-left: 40px;
 }
-.popular h1 span{
+.popular h1 span {
   color: var(--braun);
 }
-.popular .popular-wrapper{
+.popular .popular-wrapper {
   min-height: 525px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
@@ -19,33 +19,34 @@
   padding: 16px 0;
   gap: 16px;
 }
-.popular .popular-wrapper .card-popular{
-width: 360px;
-height: 430px;
-box-shadow:  0 4px 6px -1px rgba(0,0,0,0.5),0 2px 4px -2px rgba(0,0,0,0.5);
-background-color: var(--bisque);
-border-radius: 8px;
-overflow: hidden;
+.popular .popular-wrapper .card-popular {
+  width: 360px;
+  height: 430px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5),
+    0 2px 4px -2px rgba(0, 0, 0, 0.5);
+  background-color: var(--bisque);
+  border-radius: 8px;
+  overflow: hidden;
 }
-.popular .popular-wrapper .card-popular .img{
+.popular .popular-wrapper .card-popular .img {
   width: 360px;
   height: 200px;
   margin-bottom: 16px;
 }
-.popular .popular-wrapper .card-popular .img img{
- width: 100%;
- height: 100%;
- object-fit: cover; 
+.popular .popular-wrapper .card-popular .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-.popular .popular-wrapper .card-popular p{
+.popular .popular-wrapper .card-popular p {
   padding: 5px 10px;
   font-size: 1.1rem;
 }
-.popular .popular-wrapper .card-popular .price{
+.popular .popular-wrapper .card-popular .price {
   font-size: 1.2rem;
   font-weight: 600;
 }
-.popular .popular-wrapper .card-popular button{
+.popular .popular-wrapper .card-popular button {
   margin-left: 10px;
   margin-top: 10px;
   padding: 8px 16px;
@@ -56,13 +57,13 @@ overflow: hidden;
   cursor: pointer;
 }
 @media (max-width: 400px) {
-  .popular .popular-wrapper .card-popular,.popular .popular-wrapper .card-popular .img{
+  .popular .popular-wrapper .card-popular,
+  .popular .popular-wrapper .card-popular .img {
     width: 100%;
     padding: 0 8px;
     border-radius: 0;
   }
-  .popular .popular-wrapper{
+  .popular .popular-wrapper {
     grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-    
   }
 }

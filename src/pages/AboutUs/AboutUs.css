@@ -1,14 +1,14 @@
-.about-us{
+.about-us {
   width: 100%;
-  min-height:100vh ;
+  min-height: 100vh;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
-  
+  grid-template-columns: repeat(2, 1fr);
+
   padding-top: 80px;
-  background:var(--grey-light-super) ;
+  background: var(--grey-light-super);
   color: var(--black);
 }
-.about-us .img-wrapper{
+.about-us .img-wrapper {
   padding: 40px;
   background-color: var(--braun);
   display: flex;
@@ -16,7 +16,7 @@
   justify-content: center;
   align-items: center;
 }
-.about-us .img-wrapper .img{
+.about-us .img-wrapper .img {
   width: 568px;
   height: 300px;
   clip-path: ellipse(50% 96% at 50% 96%);
@@ -25,28 +25,28 @@
   background-size: cover;
   background-position: top center;
 }
-.about-us .info{
-  padding:0 40px;
+.about-us .info {
+  padding: 0 40px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   background-color: var(--bisque);
 }
-.about-us .info h2{
+.about-us .info h2 {
   font-size: 2rem;
   font-weight: 700;
- color: var(--braun);
- margin-bottom: 64px;
+  color: var(--braun);
+  margin-bottom: 64px;
 }
-.about-us .info p{
+.about-us .info p {
   font-size: 1.2rem;
   margin-bottom: 32px;
 }
 @media (max-width: 970px) {
-  .about-us{
-    grid-template-columns: repeat(1,1fr);
+  .about-us {
+    grid-template-columns: repeat(1, 1fr);
   }
-  .about-us .img-wrapper .img{
+  .about-us .img-wrapper .img {
     width: 100%;
     clip-path: polygon(0 1%, 100% 1%, 100% 100%, 0% 100%);
   }

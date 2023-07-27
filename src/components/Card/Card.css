@@ -21,13 +21,13 @@
 }
 .title {
   background-color: var(--bisque);
-  padding:32px 16px;
+  padding: 32px 16px;
 }
 .title h3 {
   letter-spacing: 1px;
 }
 @media (max-width: 400px) {
-  .card{
+  .card {
     height: auto;
   }
 }

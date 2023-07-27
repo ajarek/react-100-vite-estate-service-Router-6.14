@@ -7,7 +7,7 @@
 }
 
 :root {
-  --bisque:#ffe4c4;
+  --bisque: #ffe4c4;
   --black: #000000;
   --blue: #0062b2;
   --blueViolet: #8a2be2;
@@ -29,7 +29,6 @@
 }
 body {
   font-family: 'Raleway', sans-serif;
-  
 }
 #root {
   max-width: 1440px;

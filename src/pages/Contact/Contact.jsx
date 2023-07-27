@@ -8,30 +8,39 @@ import {
   FaMapMarkerAlt,
 } from 'react-icons/fa'
 import { useState } from 'react'
-import { Link,useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { FormContact } from '../../components/FormContact/FormContact'
 import Modal from '../../components/Modal/Modal'
 import './Contact.css'
 export const Contact = () => {
   const [showModal, setShowModal] = useState(false)
-  const [userEmail,setUserEmail]=useState('')
+  const [userEmail, setUserEmail] = useState('')
   const navigate = useNavigate()
 
-  const handleSubmit=(data)=>{
-    setUserEmail(data.email);
+  const handleSubmit = (data) => {
+    setUserEmail(data.email)
     setShowModal(true)
   }
-  
+
   const handleCloseModal = () => {
     setShowModal(false)
     navigate('/')
   }
   return (
     <div className='contact'>
-       {showModal?<Modal email={userEmail} onClose={handleCloseModal}/>:null}
+      {showModal ? (
+        <Modal
+          email={userEmail}
+          onClose={handleCloseModal}
+        />
+      ) : null}
       <div className='left-wrapper'>
         <h1>Kontakt</h1>
-        <p>Jeśli masz jakiekolwiek pytania lub chciałbyś umówić się na konsultację z jednym z naszych ekspertów ds. nieruchomości, nie wahaj się z nami skontaktować:</p>
+        <p>
+          Jeśli masz jakiekolwiek pytania lub chciałbyś umówić się na
+          konsultację z jednym z naszych ekspertów ds. nieruchomości, nie wahaj
+          się z nami skontaktować:
+        </p>
         <a
           className={'link'}
           href='tel:+48573219230'

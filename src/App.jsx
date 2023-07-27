@@ -45,7 +45,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/kontakt',
-        element: <Contact/>,
+        element: <Contact />,
         errorElement: <Error />,
       },
       {
@@ -57,18 +57,15 @@ const router = createBrowserRouter([
             element: <PopularEdit />,
             errorElement: <Error />,
           },
-        ]
-        }
+        ],
+      },
     ],
   },
 ])
 function App() {
-  
   return (
     <div className='App'>
-      <AppContext.Provider
-        value={{}}
-      >
+      <AppContext.Provider value={{}}>
         <RouterProvider router={router} />
       </AppContext.Provider>
     </div>

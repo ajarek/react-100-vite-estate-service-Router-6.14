@@ -1,37 +1,36 @@
-.home{
+.home {
   width: 100%;
   min-height: 100vh;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   padding: 0 40px;
-  background:linear-gradient(var(--grey),var(--grey-dark)) ;
+  background: linear-gradient(var(--grey), var(--grey-dark));
   color: var(--black);
 }
 
-.home .baner{
+.home .baner {
   width: 600px;
   height: 400px;
   clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
-  background:url('/baner.png') no-repeat center center / cover ;
-  
+  background: url('/baner.png') no-repeat center center / cover;
 }
-.home .info h2{
+.home .info h2 {
   font-size: 2rem;
   font-weight: 700;
 }
-.home .info h2 span{
+.home .info h2 span {
   color: var(--braun);
 }
-.home .info p{
- font-size: 1rem;
- line-height: 2;
- margin: 32px 0;
+.home .info p {
+  font-size: 1rem;
+  line-height: 2;
+  margin: 32px 0;
 }
-.home form{
+.home form {
   display: flex;
 }
-.home .info-wrapper input{
+.home .info-wrapper input {
   height: 48px;
   width: 210px;
   margin-right: 24px;
@@ -41,28 +40,27 @@
   outline: none;
   background-color: var(--bisque);
   font-size: 1rem;
-
 }
-.home .info-wrapper input[type=submit]{
- background-color: var(--braun);
- color: var(--white);
- cursor: pointer;
+.home .info-wrapper input[type='submit'] {
+  background-color: var(--braun);
+  color: var(--white);
+  cursor: pointer;
 }
 @media (max-width: 1110px) {
-  .home{
+  .home {
     padding: 90px 20px;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
-  .home .baner{
+  .home .baner {
     width: 100%;
     margin-top: 16px;
     clip-path: polygon(0 1%, 100% 1%, 100% 100%, 0% 100%);
   }
-  .home form{
+  .home form {
     justify-content: center;
     flex-wrap: wrap;
   }
-  .home .info-wrapper input{
+  .home .info-wrapper input {
     margin-bottom: 16px;
   }
 }

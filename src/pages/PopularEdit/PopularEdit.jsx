@@ -1,18 +1,17 @@
 import './PopularEdit.css'
 import { useParams, Link } from 'react-router-dom'
 import data from '../../assets/data.json'
-import { useState,useEffect } from 'react'
+import { useState, useEffect } from 'react'
 const PopularEdit = () => {
   let { id } = useParams()
-  const [selectedData, setSelectedData]=useState([])
+  const [selectedData, setSelectedData] = useState([])
   useEffect(() => {
     setSelectedData(data?.find((el) => el.id === id))
   })
-  
+
   return (
-    
     <div className='popular-edit'>
-        <div className='img'>
+      <div className='img'>
         <img
           src={selectedData.src}
           alt={selectedData.name}
@@ -21,11 +20,10 @@ const PopularEdit = () => {
       <div className='info'>
         <h2>{selectedData.name}</h2>
         <span>
-         adres: <b>{selectedData.adres}</b>
+          adres: <b>{selectedData.adres}</b>
         </span>
         <span>
-          pok.: <b>{selectedData.rooms}</b>{' '}
-          pow.: <b>{selectedData.area}</b>
+          pok.: <b>{selectedData.rooms}</b> pow.: <b>{selectedData.area}</b>
         </span>
         <div className='opis'>{selectedData.description}</div>
         <div className='wrapper-cena'>
@@ -35,12 +33,11 @@ const PopularEdit = () => {
           <Link
             to={'/popularne'}
             className='link-cena'
-            
           >
             Powrót
           </Link>
           <Link
-            to={ '/'}
+            to={'/'}
             className='link-cena'
           >
             Zamawiam
