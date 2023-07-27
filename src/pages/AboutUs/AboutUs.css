@@ -1,6 +1,6 @@
 .about-us{
   width: 100%;
-  height:100vh ;
+  min-height:100vh ;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   
@@ -41,4 +41,13 @@
 .about-us .info p{
   font-size: 1.2rem;
   margin-bottom: 32px;
+}
+@media (max-width: 970px) {
+  .about-us{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .about-us .img-wrapper .img{
+    width: 100%;
+    clip-path: polygon(0 1%, 100% 1%, 100% 100%, 0% 100%);
+  }
 }

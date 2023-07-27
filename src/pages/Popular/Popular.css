@@ -17,7 +17,7 @@
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   place-items: center;
   padding: 16px 0;
-  gap: 8px;
+  gap: 16px;
 }
 .popular .popular-wrapper .card-popular{
 width: 360px;
@@ -54,4 +54,15 @@ overflow: hidden;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+@media (max-width: 400px) {
+  .popular .popular-wrapper .card-popular,.popular .popular-wrapper .card-popular .img{
+    width: 100%;
+    padding: 0 8px;
+    border-radius: 0;
+  }
+  .popular .popular-wrapper{
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    
+  }
 }

@@ -3,7 +3,7 @@ import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup'
 import './FormContact.css'
 
-export const FormContact = () => {
+export const FormContact = ({onSubmit}) => {
   const schema = yup.object().shape({
     name: yup.string().required('Pole jest wymagane!'),
     email: yup.string().email().required('Pole jest wymagane!'),
@@ -18,9 +18,7 @@ export const FormContact = () => {
     resolver: yupResolver(schema),
   })
 
-  const onSubmit = (data) => {
-    alert('Dziękujemy ' + data.name + '!')
-  }
+  
 
   return (
     <form className='form' onSubmit={handleSubmit(onSubmit)}>

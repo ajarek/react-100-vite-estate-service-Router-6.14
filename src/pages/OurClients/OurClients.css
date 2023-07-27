@@ -23,3 +23,12 @@
    border-radius: 50%;
    margin-left: 16px;
  }
+ @media (max-width: 400px) {
+  .our-clients{
+    padding:90px 8px ;
+  }
+  .our-clients-wrapper{
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    
+  }
+}

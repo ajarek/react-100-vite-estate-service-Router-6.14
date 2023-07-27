@@ -14,3 +14,12 @@
   place-items: center;
   gap: 32px;
 }
+@media (max-width: 400px) {
+  .our-services{
+    padding:90px 8px ;
+  }
+  .our-services-wrapper{
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    
+  }
+}

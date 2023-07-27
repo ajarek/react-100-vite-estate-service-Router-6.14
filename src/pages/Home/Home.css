@@ -48,3 +48,21 @@
  color: var(--white);
  cursor: pointer;
 }
+@media (max-width: 1110px) {
+  .home{
+    padding: 90px 20px;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .home .baner{
+    width: 100%;
+    margin-top: 16px;
+    clip-path: polygon(0 1%, 100% 1%, 100% 100%, 0% 100%);
+  }
+  .home form{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .home .info-wrapper input{
+    margin-bottom: 16px;
+  }
+}

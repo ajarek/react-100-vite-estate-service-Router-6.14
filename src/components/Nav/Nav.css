@@ -67,13 +67,14 @@
   z-index: 2;
 }
 
-@media (min-width: 876px) {
+@media (min-width: 1110px) {
   .hamburger {
     display: none;
   }
 }
 
-@media (max-width: 875px) {
+@media (max-width: 1110px) {
+  
   .nav .wrapper {
     flex-direction: column;
     justify-content: space-evenly;
@@ -122,5 +123,12 @@
   }
   .link {
     font-size: 1rem;
+  }
+  .nav .logo .img {
+    display: none;
+  }
+  .nav .link-logo h1{
+
+    width: 200px;
   }
 }

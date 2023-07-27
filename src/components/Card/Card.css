@@ -26,3 +26,8 @@
 .title h3 {
   letter-spacing: 1px;
 }
+@media (max-width: 400px) {
+  .card{
+    height: auto;
+  }
+}
